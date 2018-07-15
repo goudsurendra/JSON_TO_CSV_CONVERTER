@@ -21,7 +21,7 @@ with open(input_data_file_name_and_path) as json_file:
     data = json.load(json_file)
 
 #Below ref_list should be updated with names of fields or columns that you need in your csv output file. Below are the possible example values
-ref_list = ['Instance Id','Snapshot-Retention','aws:cloudformation:logical-id','Portfolio Name','Alias','Subnet Type','aws:cloudformation:stack-id','Start-time','aws:cloudformation:stack-name','Product Short-Code','Role','Snapshot-Frequency','ComputerName','Product Environment Number','Product Environment Type','Name','VPC Environment Type','VPC Short-Code','Snapshot-Time','Stop-time']
+ref_list = ['CSV_FieldName1','CSV_FieldName2','Remaining_FieldNames']
 
 csv_data = open(output_data_file_name_and_path, 'w')
 
